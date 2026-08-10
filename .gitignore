@@ -1,0 +1,14 @@
+# secrets & local data
+.env
+config/connections.yml
+data/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# spark / data files
+spark-warehouse/
+*.parquet
+logs/
