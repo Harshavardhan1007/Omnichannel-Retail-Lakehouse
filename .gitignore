@@ -12,3 +12,4 @@ __pycache__/
 spark-warehouse/
 *.parquet
 logs/
+tests/
