@@ -1,3 +1,5 @@
 psycopg2-binary
 python-dotenv
 pandas
+pyspark==3.5.3
+delta-spark==3.2.0
