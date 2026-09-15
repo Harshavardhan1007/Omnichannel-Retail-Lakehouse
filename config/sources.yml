@@ -1,0 +1,72 @@
+sources:
+  - source_id: oltp.orders
+    system: oltp
+    entity: orders
+    protocol: jdbc
+    table: orders
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.customers
+    system: oltp
+    entity: customers
+    protocol: jdbc
+    table: customers
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.order_items
+    system: oltp
+    entity: order_items
+    protocol: jdbc
+    table: order_items
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.order_payments
+    system: oltp
+    entity: order_payments
+    protocol: jdbc
+    table: order_payments
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.order_reviews
+    system: oltp
+    entity: order_reviews
+    protocol: jdbc
+    table: order_reviews
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.products
+    system: oltp
+    entity: products
+    protocol: jdbc
+    table: products
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.sellers
+    system: oltp
+    entity: sellers
+    protocol: jdbc
+    table: sellers
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.product_category_name_translation
+    system: oltp
+    entity: product_category_name_translation
+    protocol: jdbc
+    table: product_category_name_translation
+    connection: postgres_oltp
+    load_type: full
+
+  - source_id: oltp.geolocation
+    system: oltp
+    entity: geolocation
+    protocol: jdbc
+    table: geolocation
+    connection: postgres_oltp
+    load_type: full
