@@ -3,6 +3,9 @@
 config/connections.yml
 data/
 
+# personal reference docs (not for the repo)
+docs/
+
 # python
 .venv/
 __pycache__/

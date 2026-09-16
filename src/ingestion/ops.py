@@ -9,7 +9,7 @@ import psycopg2
 
 def _conn():
     return psycopg2.connect(
-        host="localhost", port=5432,
+        host=os.environ.get("POSTGRES_HOST", "localhost"), port=5432,
         dbname=os.environ["POSTGRES_DB"],
         user=os.environ["POSTGRES_USER"],
         password=os.environ["POSTGRES_PASSWORD"],
